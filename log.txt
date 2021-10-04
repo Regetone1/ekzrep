@@ -1,0 +1,57 @@
+Vladislav Glazkov 10
+ .gitignore                      |   2 +-
+ HEAD                            |   1 +
+ config                          |   7 ++
+ description                     |   1 +
+ hooks/applypatch-msg.sample     |  15 ++++
+ hooks/commit-msg.sample         |  24 ++++++
+ hooks/fsmonitor-watchman.sample | 173 ++++++++++++++++++++++++++++++++++++++++
+ hooks/post-update.sample        |   8 ++
+ hooks/pre-applypatch.sample     |  14 ++++
+ hooks/pre-commit.sample         |  49 ++++++++++++
+ hooks/pre-merge-commit.sample   |  13 +++
+ hooks/pre-push.sample           |  53 ++++++++++++
+ hooks/pre-rebase.sample         | 169 +++++++++++++++++++++++++++++++++++++++
+ hooks/pre-receive.sample        |  24 ++++++
+ hooks/prepare-commit-msg.sample |  42 ++++++++++
+ hooks/push-to-checkout.sample   |  78 ++++++++++++++++++
+ hooks/update.sample             | 128 +++++++++++++++++++++++++++++
+ info/exclude                    |   6 ++
+ 18 files changed, 806 insertions(+), 1 deletion(-)
+
+Vladislav Glazkov 9
+ .gitignore | 2 ++
+ 1 file changed, 2 insertions(+)
+
+Vladislav Glazkov 8
+ log/.gitignore.txt | 2 --
+ 1 file changed, 2 deletions(-)
+
+Vladislav Glazkov 7
+ log/.gitignore.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+Vladislav Glazkov 6
+ log/my_first_file.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+Vladislav Glazkov 5
+ log/my_first_file.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+Vladislav Glazkov 4
+ log/.gitignore.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+Vladislav Glazkov 3
+ log/my_first_file.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Vladislav Glazkov 2
+ log/my_first_file.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+Vladislav Glazkov 1
+ log/main.html | 1 +
+ log/some.tmp  | 1 +
+ 2 files changed, 2 insertions(+)
